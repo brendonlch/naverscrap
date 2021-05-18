@@ -1,16 +1,23 @@
-from distutils.core import setup
+from setuptools import setup
+from os import path
+this_directory = path.abspath(path.dirname(__file__))
+with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
+    long_description = f.read()
 setup(
   name = 'naverscrap',
   packages = ['naverscrap'],
-  version = '1.0.0',      
+  version = '1.0.5',      
   license='MIT',    
-  description = 'A Naver News Scraping tool',
+  description = """A Naver News Scraping tool""",
+  long_description_content_type='text/markdown',
+  long_description=long_description,
+    
   author = 'Brendon Lim',  
   author_email = 'brendonlim96@hotmail.com',   
   url = 'https://github.com/brendonlch/naverscrap',   
   download_url = 'https://github.com/brendonlch/naverscrap/archive/refs/tags/1.0.0.tar.gz',
   
-  keywords = ['naver', 'korea', 'news', 'article', 'newspaper', 'web scrapping'],
+  keywords = ['naver', 'korea', 'news', 'article', 'newspaper', 'web scrapping', 'web crawl', 'crawl', 'search'],
   install_requires=[
           'datetime',
           'beautifulsoup4',
