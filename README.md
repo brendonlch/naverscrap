@@ -1,5 +1,3 @@
-[![Total Downloads](https://pepy.tech/badge/naverscrap)](https://pepy.tech/project/naverscrap)
-
 ## Introduction
 Naver News scraping library
 
@@ -48,3 +46,5 @@ _Summary_ | Summary of the news article
 This repository is licensed under the MIT license.
 
 See LICENSE for details.
+
+[![Downloads](https://static.pepy.tech/personalized-badge/naverscrap?period=total&units=international_system&left_color=grey&right_color=blue&left_text=Total%20Downloads)](https://pepy.tech/project/naverscrap)
