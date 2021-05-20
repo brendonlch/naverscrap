@@ -1,3 +1,8 @@
+<<<<<<< Updated upstream
+=======
+[![Total Downloads](https://pepy.tech/badge/naverscrap)](https://pepy.tech/project/naverscrap)
+
+>>>>>>> Stashed changes
 ## Introduction
 Naver News scraping library
 
